@@ -1,4 +1,4 @@
-const canciones = [
+ export const canciones = [
 	{
 	  nombre: "Shape of You",
 	  artista: "Ed Sheeran",
@@ -93,4 +93,46 @@ const canciones = [
 	// Puedes agregar más canciones aquí...
   ];
 
-  export default canciones
+
+
+  export const planes = [
+	{
+		id: Math.random(),
+		plan: 'Individual',
+		precio: '1.299',
+		beneficio: [
+			'1 cuenta Premium',
+			'Cancela cuando quieras',
+			'Unico pago'
+		],	terminos:`Se aplican Términos y condiciones.
+		*** + impuestos aplicables.`
+		
+		},
+		{
+			id: Math.random(),
+			plan: 'Estudiantes',
+			precio: '799',
+			beneficio: [
+				'1 cuenta Premium',
+				'Descuento para estudiantes',
+				'Cancela cuando quieras'
+			],
+			terminos:`La oferta está disponible solo para estudiantes de instituciones de educación superior acreditadas. Se aplican Términos.
+			*** + impuestos aplicables.`
+			},
+			{
+				id: Math.random(),
+				plan: 'Duo',
+				precio: '1.699',
+				beneficio: [
+					'2 cuenta Premium',
+					'Cancela cuando quieras',
+					'Unico pago'
+				],
+				terminos: `Para parejas que viven en el mismo domicilio. Se aplican terminos y condiciones.
+				 + inpuestos`
+				
+				},
+				
+
+  ]
